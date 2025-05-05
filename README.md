@@ -9,7 +9,6 @@ The Task Management System is a Single‑Page Application (SPA) built to demonst
 - **Frontend:** React 19 (SPA)  
 - **Backend:** ASP.NET Core 8 MVC / Web API  
 - **Database:** Microsoft SQL Server 2019+  
-- **ORM:** Entity Framework Core (Code‑First)  
 - **Version Control:** Git (GitHub)  
 - **Testing & API Tools:** Postman  
 - **IDE:** Visual Studio 2022 / VS Code  
@@ -17,9 +16,6 @@ The Task Management System is a Single‑Page Application (SPA) built to demonst
 ---
 
 ## 🗃️ Database Design
-
-### 🧩 ER Diagram
-![ER Diagram](docs/er-diagram.png)
 
 ### 📖 Data Dictionary
 
@@ -48,11 +44,6 @@ The Task Management System is a Single‑Page Application (SPA) built to demonst
 - **PK_taskData** on `taskID`  
 - **PK_userData** on `userID`  
 - Non‑clustered indexes on `createdBy`, `updatedBy`, and `status` for efficient lookups  
-
-### 🎓 Approach
-- **Code‑First** with Entity Framework Core  
-  - Enables migrations and version control of schema  
-  - Simplifies model‑driven development  
 
 ---
 
