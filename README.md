@@ -20,7 +20,7 @@ The Task Management System is a Single‑Page Application (SPA) built to demonst
 
 The following ER diagram illustrates the relationship between the `Task` and `UserData` tables:
 
-![ER Diagram](images/er-diagram.png)
+![ER Diagram](ER diagram.png)
 
 
 ### 📖 Data Dictionary
