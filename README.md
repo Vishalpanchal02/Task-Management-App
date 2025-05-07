@@ -16,6 +16,12 @@ The Task Management System is a Single‑Page Application (SPA) built to demonst
 ---
 
 ## 🗃️ Database Design
+### 📊 ER Diagram
+
+The following ER diagram illustrates the relationship between the `Task` and `UserData` tables:
+
+![ER Diagram](images/er-diagram.png)
+
 
 ### 📖 Data Dictionary
 
